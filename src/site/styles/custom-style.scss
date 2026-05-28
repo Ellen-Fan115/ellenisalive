@@ -14,7 +14,6 @@ body {
 }
 
 
-/*** 图片居中 ***/
 img {
     display: block !important;
     margin-left: auto !important;
@@ -26,7 +25,6 @@ img {
 }
 
 
-/*** 图片大小 ***/
 img {
 display: block !important;
 margin-left: auto !important;
@@ -38,7 +36,7 @@ width: 900px !important;
 margin: auto !important;
 }
 
-/*** 图片常驻显示注释 ***/
+
 .internal-embed.image-embed::after {
 	content: attr(alt);
 	font-size: 0.8em;
