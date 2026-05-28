@@ -11,6 +11,8 @@ body {
     //  }
 
 }
+
+
 /* 图片居中 */
 img {
     display: block !important;
@@ -21,6 +23,8 @@ img {
  .markdown-source-view.mod-cm6 .cm-content > * {
     margin:  auto !important;
 }
+
+
 /* 图片大小 */
 img {
 display: block !important;
@@ -31,4 +35,13 @@ width: 900px !important;
 
 .markdown-source-view.mod-cm6 .cm-content > * {
 margin: auto !important;
+}
+
+/* 图片常驻显示注释 */
+.internal-embed.image-embed::after {
+	content: attr(alt);
+	font-size: 0.8em;
+	display: block;
+	text-align: center;
+	padding: 0.5em;
 }
