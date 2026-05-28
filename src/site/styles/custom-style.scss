@@ -37,15 +37,16 @@ margin: auto !important;
 }
 
 
-/* 针对网页端图片的通用标题显示 */
-.markdown-preview-view img::after,
-.content img::after,
-img[alt]::after {
+
+picture::after,
+.prose img::after,
+p:has(> img[alt])::after {
     content: attr(alt) !important;
     font-size: 0.8em !important;
     display: block !important;
     text-align: center !important;
     padding: 0.5em !important;
-    color: #666 !important; /* 给标题一个灰色，更有质感 */
+    color: var(--text-muted, #666) !important;
 }
+
 
