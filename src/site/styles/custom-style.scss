@@ -10,4 +10,24 @@ body {
     //  h1 {
     //   color: black;
     //  }
+    img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+ .markdown-source-view.mod-cm6 .cm-content > * {
+    margin:  auto !important;
+}
+
+img {
+display: block !important;
+margin-left: auto !important;
+margin-right: auto !important;
+width: 900px !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > * {
+margin: auto !important;
+}
 }
