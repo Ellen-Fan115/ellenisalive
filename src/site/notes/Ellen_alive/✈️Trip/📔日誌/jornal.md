@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ellen-alive/trip//jornal/","contentClasses":"","tags":["gardenEntry"],"created":"2026-05-24T20:42:21.000+08:00","dg-note-properties":{"cssclasses":["image-center","image-caption"]}}
+{"dg-publish":true,"permalink":"/ellen-alive/trip//jornal/","contentClasses":"image-center image-caption","tags":["gardenEntry"],"created":"2026-05-24T20:42:21.000+08:00","dg-note-properties":{"cssclasses":["image-caption","image-center"]}}
 ---
 
 
