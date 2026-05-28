@@ -2,7 +2,8 @@ body {
     /***
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/    //  background-color: white;
+   ***/    
+	//  background-color: white;
     //  .content {
     //   font-size: 14px;
     //  }
@@ -13,7 +14,7 @@ body {
 }
 
 
-/* 图片居中 */
+/*** 图片居中 ***/
 img {
     display: block !important;
     margin-left: auto !important;
@@ -25,7 +26,7 @@ img {
 }
 
 
-/* 图片大小 */
+/*** 图片大小 ***/
 img {
 display: block !important;
 margin-left: auto !important;
@@ -37,7 +38,7 @@ width: 900px !important;
 margin: auto !important;
 }
 
-/* 图片常驻显示注释 */
+/*** 图片常驻显示注释 ***/
 .internal-embed.image-embed::after {
 	content: attr(alt);
 	font-size: 0.8em;
