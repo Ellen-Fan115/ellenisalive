@@ -12,32 +12,3 @@ body {
 
 }
 /* 图片居中 */
-img {
-display: block !important;
-margin-left: auto !important;
-margin-right: auto !important;
-}
-
- .markdown-source-view.mod-cm6 .cm-content > * {
-    margin:  auto !important;
-}
-
-img {
-display: block !important;
-margin-left: auto !important;
-margin-right: auto !important;
-
-/* 图片常驻显示注释 */
-.internal-embed.image-embed::after {
-	content: attr(alt);
-	font-size: 0.8em;
-	display: block;
-	text-align: center;
-	padding: 0.5em;
-}
-width: 900px !important;
-}
-
-.markdown-source-view.mod-cm6 .cm-content > * {
-margin: auto !important;
-}
