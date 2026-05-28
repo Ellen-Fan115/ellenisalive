@@ -37,16 +37,16 @@ margin: auto !important;
 }
 
 
-
-picture::after,
-.prose img::after,
+.markdown-preview-view p:has(> img[alt])::after,
+.content p:has(> img[alt])::after,
 p:has(> img[alt])::after {
     content: attr(alt) !important;
-    font-size: 0.8em !important;
     display: block !important;
+    font-size: 0.85em !important;
     text-align: center !important;
-    padding: 0.5em !important;
-    color: var(--text-muted, #666) !important;
+    color: #666 !important;
+    margin-top: 0.5em !important;
 }
+
 
 
